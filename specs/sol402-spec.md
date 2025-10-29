@@ -1,8 +1,8 @@
-## MMA / UFC
-Sport ID: 7
+## SOL / x402
+Crypto ID: 7
 Notes
 - The fighter IDs are sent in resolution because if a fighter is substituted, the market resolves as No Contest.
-- MMA has only Head-to-Head markets.
+- Prediction has only Head-to-Head markets.
 - There's no score, just a winner.
 - Fighter name and ID are given. Name is used for TBD check but mostly for UI.
   ID is used for resolution since it won't ever be duplicated.

@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "lib": [
+      "es2015",
+      "dom",
+      "webworker",
+      "es2018"
+    ],
+    "module": "CommonJS",
+    "composite": true,
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "experimentalDecorators": true,
+    "watch": false,
+    "strictNullChecks": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "allowJs": true,
+    "typeRoots": ["node_modules/@types", "node_modules/hardhat/types"]
+  },
+  "references": [
+    {
+      "path": "./packages/smart"
+    },
+    {
+      "path": "./packages/ethereum-multicall"
+    },
+    {
+      "path": "./packages/chainlink"
+    },
+    {
+      "path": "./packages/comps"
+    }
+  ],
+  "exclude": ["**/node_modules", "**/build", "**/dist"],
+  "files": [],
+  "include": []
+}
